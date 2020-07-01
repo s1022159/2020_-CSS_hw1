@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Lato', sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(39, 36, 36);
+            height: 30px;
+            padding: 15px 0;
+        }
+
+        .buttongroup {
+            margin-right: 50px;
+        }
+
+        .buttongroup button {
+            border-radius: 50%;
+            font-size: 12px;
+            width: 23px;
+            height: 23px;
+            padding: 2px;
+            border-style: none;
+            background-color: white;
+        }
+
+        .phone_number {
+            font-size: 20px;
+            color: white;
+            margin-left: 50px;
+            font-weight: 300;
+        }
+
+        .phone_number a {
+            color: white;
+        }
+
+        .phone_number i {
+            color: #ff9933;
+            font-size: 16px;
+        }
+        .brand a {
+            font-size: 50px;
+            color: #553355;
+            font-family: serif;
+            font-weight: 700;
+            display: flex;
+        }
+        .brand{
+            margin: 30px 0 0 60px;
+            
+        }
+        .brand a img{
+            margin-right: 20px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/05c128ff7b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <p>hello</p>
-    <p>goobye</p>
+    <div class="header">
+        <div class="phone_number">
+            <i class="fas fa-phone-alt"></i> Toll-free: <a href="">(123) 456-7890</a>
+
+        </div>
+        <div class="buttongroup">
+            <button><i class="fab fa-twitter"></i></button>
+            <button><i class="fab fa-facebook-f"></i></button>
+            <button><i class="fab fa-pinterest"></i></i></button>
+            <button><i class="fab fa-linkedin-in"></i></button>
+        </div>
+
+    </div>
+    <div class="header2">
+        <div class="brand">
+            <a href="#">
+                <img src="asset 0.png" alt="logo">
+               Anilove
+            </a>
+
+
+
+        </div>
+        <div class="menu">
+
+        </div>
+        <div class="donate">
+
+        </div>
+
+    </div>
 </body>
+
 </html>
