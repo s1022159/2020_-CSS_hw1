@@ -53,7 +53,7 @@ a {
 .brand a {
     font-size: 55px;
     color: #535353;
-    font-family: serif;
+    font-family: 'PT Serif', serif;
     font-weight: 700;
     display: flex;
 }
@@ -106,8 +106,9 @@ a {
     z-index: 1;
 }
 .phone{
-    width: 58px;
-    height: 58px;
+    width: 65px;
+    height: 65px;
+    font-size: 60px;
 
     position: fixed;
     left: 20px;
@@ -115,7 +116,7 @@ a {
     margin: auto;
     background-color: white;
     border-radius: 50%;
-    box-shadow: -1px 1px 10px #535353;
+    box-shadow: 1px 3px 5px #535353;
 
     color: #ff9933;
     display: flex;
@@ -123,8 +124,6 @@ a {
     justify-content: center;
     align-items: center;
     z-index: 1;
-
-
 }
 
 .cat{
@@ -238,4 +237,196 @@ a {
     border-radius: 2px;
     cursor: pointer;
 }
+.help{
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+}
+.help-text1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #535353;
+    margin: 0;
+    padding-top: 90px;
+}
+.help-text2{
+    font-size: 30px;
+    color: #7ABEE9;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.catphoto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 60px;
+    padding-left: 55px;
+}
+.sleepcat {
+    position: relative;
+    height: 502px;
+    width: 372px;
+}
+.girl_dog {
+    position: relative;
+    height: 502px;
+    width: 372px;
+}
+.women_cat{
+    position: relative;
+    height: 502px;
+    width: 372px;
+}
+.cover {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cover:hover {
+    background-color: rgba(27, 24, 24, .8);
+}
+.cover a{
+    font-size: 34px;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    transition: .7s;
+}
+.cover a:hover{
+    color: #ff9933;
+}
+.volunteer{
+    display: flex;
+    /* align-items: center;這是垂直置中 */
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    margin: 0;
+}
+.volunteer-text1{
+    margin: 0;
+}
+.volunteer-text2{
+    margin: 0;
+}
+.volunteer-word1{
+    padding-bottom: 40px;
+    margin: 0 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: #535353;
+    text-align: right;
+}
+.volunteer-text2 img{
+    height: 371.6px;
+    padding-right: 30px;
+}
+.volunteer-word2{
+    margin: 0;
+    width: 537px;
+
+    font-size: 14px;
+    color: #8d8d8d;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.volunteer-button{
+    margin-bottom: 140px;
+
+    border: 2px solid #ff9933 ;
+    width: 200px;
+    color:#ffffff;
+    padding: 20px ;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ff9933;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.event{
+    background-image: url(asset\ 3.jpeg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0px;
+}
+.event-text1{
+    margin: 0;
+    padding-top: 195px;
+    padding-left: 50px;
+    font-size: 50px;
+    color: #535353;
+    font-weight: 700;
+}
+.event-text2{
+    margin: 0;
+    padding-left: 50px;
+
+    font-size: 60px;
+    color: #7ABEE9;
+    font-weight: 700;
+
+}
+.event-text3{
+    margin: 0;
+    padding-left: 50px;
+    padding-bottom: 30px;
+
+    font-size: 24px;
+    color: #535353;
+}
+.event-button1{
+    margin-left: 50px;
+    margin-bottom: 180px;
+
+    border: 2px solid #ff9933 ;
+    width: 200px;
+    color:#ffffff;
+    padding: 20px ;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ff9933;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s;
+}
+.event-button2{
+    margin-left: 50px;
+    margin-bottom: 180px;
+
+    border: 2px solid #ff9933 ;
+    width: 200px;
+    color:#ffffff;
+    padding: 20px ;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ff9933;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s;
+}
+.dogjogging{
+    background-image: url(/dog-jogging.jpg);
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    border-bottom: 14px solid #ff9933;
+}
+
+
+
+
 
