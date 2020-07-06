@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     margin: 0px;
     font-family: 'Lato', sans-serif;
@@ -25,12 +30,11 @@ a {
     border-style: none;
     background-color: white;
     transition: .9s;
+    cursor: pointer;
 }
-
 .buttongroup button:hover {
     background-color: #ff9933;
 }
-
 .phone_number {
     font-size: 20px;
     color: white;
@@ -39,16 +43,25 @@ a {
 }
 .phone_number a {
     color: white;
+    transition: .3s;
+}
+.phone_number a:hover {
+    color: #ff9933;
 }
 .phone_number i {
     color: #ff9933;
     font-size: 16px;
 }
 .header2{
-    margin: 30px 60px 20px 60px;
+    background-color: white;
+    margin: 30px 0px 20px 0px;
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .brand a {
     font-size: 55px;
@@ -65,7 +78,6 @@ a {
     color: black;
     justify-content: center;
     margin: 20px;
-    /* padding: 25px; */
 }
 .header2 .menu a:hover{
     border-bottom: 3px solid #ff9933;
@@ -125,9 +137,8 @@ a {
     align-items: center;
     z-index: 1;
 }
-
 .cat{
-    background-image: url(cat.jpg);
+    background-image: url(image/cat.jpg);
     background-position: center;
     background-size: 125%;
     background-repeat: no-repeat;
@@ -150,7 +161,6 @@ a {
     font-size: 80px;
     color: #7ABEE9;
     font-weight: 700;
-
 }
 .catword-text3{
     margin: 0;
@@ -181,10 +191,8 @@ a {
 }
 .about{
     display: flex;
-    /* justify-items: center; */
     align-items: center;
     margin-top: 30px;
-
 }
 .about img{
     height: 564px;
@@ -216,13 +224,11 @@ a {
     font-size: 14px;
     color: #8d8d8d;
     padding-bottom: 15px;
-
 }
 .about-text4{
     font-size: 14px;
     color: #8d8d8d;
     padding-bottom: 30px;
-
 }
 .about-text5{
     margin-bottom: 140px;
@@ -356,16 +362,17 @@ a {
     cursor: pointer;
 }
 .event{
-    background-image: url(asset\ 3.jpeg);
+    background-image: url(image/asset\ 3.jpeg);
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
     text-align: center;
     margin: 0px;
+    height: 400px;
 }
 .event-text1{
     margin: 0;
-    padding-top: 195px;
+    padding-top: 20px;
     padding-left: 50px;
     font-size: 50px;
     color: #535353;
@@ -378,7 +385,6 @@ a {
     font-size: 60px;
     color: #7ABEE9;
     font-weight: 700;
-
 }
 .event-text3{
     margin: 0;
@@ -419,16 +425,22 @@ a {
     transition: .3s;
 }
 .dogjogging{
-    background-image: url(/dog-jogging.jpg);
+    margin-top: 70px;
+    background-image: url(image/dog-jogging.jpg);
     width: 100%;
     height: 80vh;
     background-attachment: fixed;
     border-bottom: 14px solid #ff9933;
     display: flex;
+    background-repeat: no-repeat;
+}
+.media{
+    /* padding: 90px; */
+    text-align: center;
 }
 .media-title{
     margin: 0;
-    padding-top: 195px;
+    padding-top: 55px;
     padding-left: 50px;
     font-size: 50px;
     color: #535353;
@@ -436,6 +448,8 @@ a {
 }
 .media-text{
     margin: 0;
+    padding-top: 15px;
+    padding-bottom: 65px;
     padding-left: 50px;
 
     font-size: 30px;
@@ -443,12 +457,194 @@ a {
     font-weight: 300;
 }
 iframe{
+    width: 90%;
+    height: 90%;
+    height: 650px;
+}
+.leave-a-messages{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.leave-a-message{
+    width: 570px;
+    height: 390px;
+    margin: 20px 10px;
+}
+.leave-a-message img{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.day{
+    font-size: 16px;
+    color: #ffffff;
+}
+.artical-title{
+    font-size: 30px;
+    color: #ffffff;
+}
+.statistics{
+    background-image: url(image/mountain-person-dog.jpg);
     width: 100%;
     height: 100%;
-    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
 
-
+    /* text-align: center;  */
+    font-size: 30px;
+    height: 70vh;
+    margin-top: 50px;
 }
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+.statistic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 70px 0;
+}
+.statistics-number{
+    color: #ffffff;
+    font-size: 60px;
+}
+.statistics-word{
+    font-size: 24px;
+    color: #ffffff;
+} 
+.ig p{
+    color: #535353;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 60px 0;
+}
+.ig-photos{
+    display: flex;
+}
+.ig-photos .ig-photo{
+    position: relative;
+    height: 274px;
+    width: 25%;
+}
+.ig-photos img{
+    width: 100%;
+    display: block;
+}
+.ig-photos .ig-photo .cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ig-photos .ig-photo .cover i{
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    font-size: 0;
+}
+.ig-photos .ig-photo .cover i:hover{
+    cursor: pointer;
+    background-color: rgba(255, 153, 51, 0.856);
+    font-size: 50px;
+}
+.footer{
+    background-color: #434f53;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-brand{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    cursor: pointer;
+}
+.footer p{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer-icons div{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #00aeef;
+    color: #fff;
+    margin: 30px 4px;
+    border-radius: 2px;
+    transition: .3s;
+}
+.footer-icons div:hover{
+    filter: opacity(0.8);
+}
+.footer-icons > :nth-child(2){
+    background-color: #547CD5;
+}
+.footer-icons > :nth-child(3){
+    background-color: #CC3300;
+}
+.footer-icons > :nth-child(4){
+    background-color: #0075B6;
+}
+.footer-words p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-words span{
+    color: #fff;
+}
+
+.footer-words span:hover{
+    color: #ff9933;
+    cursor: pointer;
+}
+.footer-words span .fa-phone-alt{
+    color: #ff9933;
+    transition: .3s;
+}
+.footer-words a{
+    color: #fff;
+    transition: .3s;
+}
+.footer-words a:hover{
+    color: #ff9933;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
