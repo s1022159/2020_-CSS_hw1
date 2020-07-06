@@ -424,8 +424,31 @@ a {
     height: 80vh;
     background-attachment: fixed;
     border-bottom: 14px solid #ff9933;
+    display: flex;
 }
+.media-title{
+    margin: 0;
+    padding-top: 195px;
+    padding-left: 50px;
+    font-size: 50px;
+    color: #535353;
+    font-weight: 700;
+}
+.media-text{
+    margin: 0;
+    padding-left: 50px;
 
+    font-size: 30px;
+    color: #7ABEE9;
+    font-weight: 300;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    height: 650px;
+
+
+}
 
 
 
