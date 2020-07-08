@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #679509;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 14px;
+
+    .header-menu a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+
+    .logo {
+        padding: 15px;
+    }
+    .logo-menu a {
+    background-color: #fff;
+    padding: 15px;
+    color: #a5a5a5;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    }
+}
+.main{
+    background-image: url(img/asset36.png);
+    height: 831px;
+    background-size: cover;
+
+
+
+    .main-words{
+        h1{
+            font-size: 82px;
+        }
+
+
+    }
+    
+
+}
+
+

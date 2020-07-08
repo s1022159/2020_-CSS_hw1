@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #679509;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.header .header-menu a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 15px;
+}
+
+.container .logo {
+  padding: 15px;
+}
+
+.container .logo-menu a {
+  background-color: #fff;
+  padding: 15px;
+  color: #a5a5a5;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.main {
+  background-image: url(img/asset36.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 831px;
+  background-size: cover;
+}
+
+.main .main-words h1 {
+  font-size: 82px;
+}
+/*# sourceMappingURL=Style.css.map */
