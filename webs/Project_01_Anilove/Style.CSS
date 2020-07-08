@@ -561,7 +561,7 @@ iframe{
     width: 100%;
     display: block;
 }
-.ig-photos .ig-photo .cover{
+.ig-photos .ig-photo .ig-photo-cover{
     position: absolute;
     top: 0;
     left: 0;
@@ -572,7 +572,7 @@ iframe{
     display: flex;
     justify-content: center;
 }
-.ig-photos .ig-photo .cover i{
+.ig-photos .ig-photo .ig-photo-cover i{
     color: #fff;
     font-size: 40px;
     display: flex;
@@ -580,12 +580,12 @@ iframe{
     height: 100%;
     justify-content: center;
     align-items: center;
-    transition: .3s;
+    transition: .4s;
     font-size: 0;
 }
-.ig-photos .ig-photo .cover i:hover{
+.ig-photos .ig-photo .ig-photo-cover i:hover{
     cursor: pointer;
-    background-color: rgba(255, 153, 51, 0.856);
+    background-color: rgba(255, 153, 51, .5);
     font-size: 50px;
 }
 .footer{
