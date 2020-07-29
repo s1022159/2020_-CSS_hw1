@@ -1,3 +1,11 @@
+body{
+    background-image: url(../image/bg-01.png);
+    background-repeat: repeat;
+    .jumbotron{
+        background-image: url(../image/banner-menu.jpg);
+        height: 246px;
+    }
+}
 .card {
 
     border: 1px solid #df600f;
@@ -14,7 +22,9 @@
             display: inline-block;
             border-radius: 5px;
         }
-
+        .food{
+            color: #df600f;
+        }
         .price {
             display: flex;
             // align-items: center;
