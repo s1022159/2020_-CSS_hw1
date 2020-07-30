@@ -4,14 +4,12 @@ body {
 
 .fullpage {
   width: 100%;
-  outline: 3px solid red;
 }
 
 .fullpage .pagesetting {
   width: 1200px;
   margin: auto;
   height: 200px;
-  outline: 3px solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +19,6 @@ body {
   width: 200px;
   height: 200px;
   margin: 5px;
-  outline: 3px solid yellow;
 }
 
 .header {
@@ -36,6 +33,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 15px;
   font-size: 14px;
 }
 
@@ -78,7 +76,6 @@ body {
   color: #a5a5a5;
   text-decoration: none;
   font-size: 14px;
-  font-family: sans-serif;
 }
 
 .main {

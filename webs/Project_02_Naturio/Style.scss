@@ -9,18 +9,15 @@ body {
 }
 .fullpage{
     width: 100%;
-    outline: 3px solid red;
     .pagesetting{
         width: 1200px;
         margin: auto;
         height: 200px;
-        outline: 3px solid blue;
         display: flex;
         .content{
             width: 200px;
             height: 200px;
             margin: 5px;
-            outline: 3px solid yellow;
         }
     }
 }
@@ -31,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // padding: 15px;
+    padding: 0 15px;
     font-size: 14px;
 
     .header-word {
@@ -64,7 +61,6 @@ body {
         color: #a5a5a5;
         text-decoration: none;
         font-size: 14px;
-        font-family: sans-serif;
     }
 }
     
@@ -224,3 +220,24 @@ body {
         }
     }
 }
+
+
+
+
+// .fullpage{
+//     width: 100%;
+//     outline: 3px solid red;
+//     .pagesetting{
+//         width: 1200px;
+//         margin: auto;
+//         height: 200px;
+//         outline: 3px solid blue;
+//         display: flex;
+//         .content{
+//             width: 200px;
+//             height: 200px;
+//             margin: 5px;
+//             outline: 3px solid yellow;
+//         }
+//     }
+// }
