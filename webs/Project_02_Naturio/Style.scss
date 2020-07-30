@@ -3,18 +3,27 @@
 //     padding: 0;
 //     list-style: none;
 // }
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
 
 }
-.fullpage{
+
+.fullpage {
     width: 100%;
-    .pagesetting{
+
+    .pagesetting {
         width: 1200px;
         margin: auto;
         height: 200px;
         display: flex;
-        .content{
+
+        .content {
             width: 200px;
             height: 200px;
             margin: 5px;
@@ -49,21 +58,23 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px 15px;
-.main-words{
-    width: 1200px;
-    .logo {
-        padding: 15px;
+
+    .main-words {
+        width: 1200px;
+
+        .logo {
+            padding: 15px;
+        }
+
+        .logo-menu a {
+            background-color: #fff;
+            padding: 15px;
+            color: #a5a5a5;
+            text-decoration: none;
+            font-size: 14px;
+        }
     }
 
-    .logo-menu a {
-        background-color: #fff;
-        padding: 15px;
-        color: #a5a5a5;
-        text-decoration: none;
-        font-size: 14px;
-    }
-}
-    
 }
 
 .main {
@@ -78,6 +89,7 @@ body {
         justify-content: center;
         margin: auto;
         align-items: center;
+
         .main-words {
             width: 50%;
 
@@ -115,8 +127,6 @@ body {
             width: 50%;
         }
     }
-
-
 }
 
 .welcome {
@@ -219,6 +229,47 @@ body {
             }
         }
     }
+}
+
+.shop-box {
+    background-image: url(img/asset37.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 831px;
+    display: flex;
+    
+    .shop {
+        color: #363636;
+        text-align: center;
+        justify-content: center;
+        
+        h1 {
+            font-size: 82px;
+
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Pacifico', cursive;
+
+        }
+
+        button {
+            text-decoration: none;
+            background-color: #86ae34;
+            color: #fff;
+            border: 0px solid #FFFFFF;
+            cursor: pointer;
+            padding: 22px 42px 22px 42px;
+            font-weight: 800;
+
+
+            // overflow: hidden;
+        }
+
+
+    }
+
 }
 
 
