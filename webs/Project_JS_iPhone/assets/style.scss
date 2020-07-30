@@ -18,3 +18,25 @@ input[type='radio']:checked {
         box-shadow: 0 0 0 5px #c2e0fd;
     }
 }
+
+.iphonePrice {
+   
+        border: 1px solid #d6d6d6;
+        width: 200px;
+        padding: 40px 0;
+        border-radius: 5px;
+   .storage-num{
+       font-size: 29px;
+       font-weight: 600;
+   }
+   .storage-unit{
+    font-size: 19px;
+    font-weight: 600;
+
+   }
+   .storage-price{
+    font-size: 12px;
+   }
+
+
+}
