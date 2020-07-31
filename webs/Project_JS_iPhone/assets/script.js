@@ -17,3 +17,17 @@ function setColor(color) {
   }
 }
 
+function setPrice(price) {
+  // 加NT$的第一種寫法
+  // price = 'NT$' + price;
+  // 第二種寫法
+  // price = `NT$${price}`;
+  // var changeprice = document.querySelector('.final-price');
+  //第三種寫法
+  // changeprice.innerText = `NT$${price}`;
+
+  //第四種寫法
+  document.querySelector('.final-price').innerText = `NT$${price}`;
+
+
+}
