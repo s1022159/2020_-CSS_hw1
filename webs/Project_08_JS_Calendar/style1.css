@@ -16,15 +16,18 @@
 .calendar .title #calendar-year {
   font-size: large;
   padding-top: 20px;
+  color: #e2997f;
 }
 
 .calendar .title #calendar-title {
   display: inline;
+  color: #f86a0b;
 }
 
 .calendar .title .far {
   display: inline;
   padding: 0 50px;
+  color: #e2997f;
 }
 
 .calendar .body .body-list ul {
@@ -32,6 +35,7 @@
   font-family: arial;
   font-weight: bold;
   font-size: 14px;
+  color: #a8a8a8;
 }
 
 .calendar .body .body-list ul li {
@@ -46,24 +50,28 @@
   text-align: center;
 }
 
+.calendar .body .body-list #days {
+  color: black;
+}
+
 .lightgray {
   color: #a8a8a8;
   /*淺灰色*/
 }
 
 .darkgray {
-  color: #565656;
+  color: #a09d9d;
   /*深灰色*/
 }
 
 .green {
-  color: #6ac13c;
+  color: #f87947;
   /*綠色*/
 }
 
 .greenbox {
-  border: 1px solid #6ac13c;
-  background: #e9f8df;
+  border: 1px solid #f5c875;
+  background: #ffebc6;
   /*淺綠色背景*/
 }
 /*# sourceMappingURL=style1.css.map */
