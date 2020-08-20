@@ -16,7 +16,7 @@ var myChart = new Chart(ctx, { //myChart這個圖表的名字
     // 折線圖
     // type: 'line',
     // 園餅圖
-    type: 'bar',
+    type: 'pie',
     data: {
         labels: [],
         datasets: [{
