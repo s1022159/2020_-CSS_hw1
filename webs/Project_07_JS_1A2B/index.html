@@ -26,14 +26,15 @@
 
             <div class="col-12 col-md-12  text-center pt-5 ">
                 <div class="user-guess-history">
-                    
+
                 </div>
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text">猜答案</span>
                     </div>
-                    <input type="text" class="form-control user-guess" maxlength="4">
-                    <!-- onkeypress="return (/[\d]/.test(String.fromCharCode(event.keyCode)))" -->
+                    <input type="text" class="form-control user-guess" maxlength="4"
+                        onkeypress="return (/[\d]/.test(String.fromCharCode(event.keyCode)))">
+                    <!-- \d這是限制0~9的數字，String.fromCharCode可以把按鍵碼(任何按鍵)轉換成字串，keyCode是按鍵碼 -->
                     <!-- input這是使用者輸入的框框本尊 -->
                     <!-- maxlength屬性可以設定輸入的長度  -->
                     <div class="input-group-append">
