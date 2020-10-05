@@ -39,7 +39,7 @@ body .jumbotron {
 .card .card-body .price span {
   background-color: #007642;
   color: white;
-  border-radius: 1.5em;
+  border-radius: 50%;
   font-size: 15px;
   text-align: center;
   height: 1.5em;
